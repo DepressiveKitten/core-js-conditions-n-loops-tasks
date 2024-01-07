@@ -360,7 +360,7 @@ function getSpiralMatrix(size) {
 
   let index = 1;
 
-  while (true) {
+  while (index <= size * size) {
     for (let i = left; i <= right; i += 1) {
       answer[top][i] = index;
       index += 1;
